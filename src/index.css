@@ -1,0 +1,224 @@
+body {
+	background-color: #f0f2f5;
+	color: #111;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card,
+.navbar,
+.dropdown-menu,
+.form-control,
+textarea,
+input {
+	background-color: #ffffff !important;
+	color: #111 !important;
+	border-color: #ddd !important;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a,
+.nav-link,
+.navbar-brand {
+	color: #007bff !important;
+	transition: color 0.3s ease;
+}
+
+.text-muted {
+	color: #555 !important;
+}
+
+body.dark-mode {
+	background-color: #18191a !important;
+	color: #e4e6eb !important;
+}
+
+body.dark-mode .card,
+body.dark-mode .post-card,
+body.dark-mode .dropdown-menu,
+body.dark-mode .form-control,
+body.dark-mode textarea,
+body.dark-mode input {
+	background-color: #242526 !important;
+	color: #e4e6eb !important;
+	border-color: #3a3b3c !important;
+}
+
+body.dark-mode .navbar {
+	background-color: #242526 !important;
+	border-bottom: 1px solid #3a3b3c !important;
+}
+body.dark-mode .navbar-brand,
+body.dark-mode .nav-link,
+body.dark-mode a {
+	color: #0dcaf0 !important;
+}
+
+.comment-box {
+	background-color: #f8f9fa;
+	border-radius: 8px;
+	padding: 8px 12px;
+	border: 1px solid #ddd;
+	transition: all 0.3s ease;
+}
+
+body.dark-mode .comment-box {
+	background-color: #3a3b3c;
+	color: #e4e6eb;
+	border-color: #555;
+}
+
+.like-btn {
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	transition: transform 0.2s ease, color 0.2s ease;
+}
+.like-btn:hover {
+	transform: scale(1.2);
+}
+
+body.dark-mode .like-btn {
+	color: #ff4d4d !important;
+}
+
+.btn,
+button {
+	transition: all 0.3s ease;
+}
+
+body.dark-mode .btn-outline-primary {
+	border-color: #0dcaf0 !important;
+	color: #0dcaf0 !important;
+}
+body.dark-mode .btn-outline-primary:hover {
+	background-color: #0dcaf0 !important;
+	color: #000 !important;
+}
+
+body.dark-mode .btn-primary {
+	background-color: #0dcaf0 !important;
+	border-color: #0dcaf0 !important;
+	color: #000 !important;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode p,
+body.dark-mode small {
+	color: #e4e6eb !important;
+}
+
+body.dark-mode .text-muted {
+	color: #b0b3b8 !important;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-thumb {
+	background: #ccc;
+	border-radius: 5px;
+}
+body.dark-mode ::-webkit-scrollbar-thumb {
+	background: #444;
+}
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+	background: #666;
+}
+
+body,
+.card,
+.navbar,
+.dropdown-menu {
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.post-card {
+	background-color: #fff;
+	color: #111;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 15px;
+	margin-bottom: 20px;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .post-card {
+	background-color: #242526 !important;
+	color: #e4e6eb !important;
+	border-color: #3a3b3c !important;
+}
+
+body.dark-mode .searchInput::placeholder {
+	background-color: #242526 !important;
+	color: #e4e6eb68 !important;
+	border-color: #3a3b3c !important;
+}
+
+body.dark-mode .SearchResultsDropdown {
+	background-color: #242526 !important;
+	color: #e4e6eb !important;
+	border: 1px solid #3a3b3c !important;
+	width: 100%;
+	max-height: 300px;
+	overflow-y: auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	z-index: 1001;
+}
+
+body.dark-mode .SearchResultsDropdown a {
+	color: #e4e6eb !important;
+}
+
+body.dark-mode .SearchResultsDropdown a:hover {
+	background-color: #3a3b3c !important;
+}
+
+body.dark-mode .userDropdown {
+	color: #e4e6eb !important;
+}
+
+body.dark-mode .navbar-toggler {
+	background-color: #373a3d !important;
+}
+
+body.dark-mode .dark-cont {
+	background-color: #18191a !important;
+}
+
+body.dark-mode .dark-input::placeholder {
+	color: #b0b3b8 !important;
+}
+
+body.dark-mode .dark-cont-box {
+	background-color: #242526 !important;
+	color: #e4e6eb !important;
+}
+
+body.dark-mode .dark-comment {
+	background-color: #3a3b3c !important;
+	border-radius: 8px;
+	padding: 8px 12px;
+	border: 1px solid #555 !important;
+	margin-bottom: 10px;
+}
+body.dark-mode .dark-comment strong {
+	color: #e4e6eb !important;
+}
+
+body.dark-mode .dark-comment p {
+	color: #e4e6eb !important;
+	padding: 5px;
+	background-color: #555;
+	border-radius: 10px;
+	margin: 5px 0;
+}
+
+body.dark-mode .form-control::placeholder {
+	color: #b0b3b8 !important;
+}
